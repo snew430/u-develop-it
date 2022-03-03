@@ -36,4 +36,4 @@ CREATE TABLE votes (
   CONSTRAINT fk_candidate FOREIGN KEY (candidate_id) REFERENCES candidates(id) ON DELETE CASCADE
 );
 
-source db/seeds.sql
+source db/seeds.sql;
